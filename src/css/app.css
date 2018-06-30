@@ -1,0 +1,122 @@
+*, body, html {
+  padding: 0;
+  margin: 0; }
+
+html {
+  background-color: #000;
+  max-height: 100vh;
+  max-width: 100vw; }
+
+body {
+  max-height: 100vh;
+  max-width: 100vw;
+  overflow-x: hidden;
+  overflow: auto; }
+
+.App {
+  text-align: center;
+  font-size: 1rem;
+  justify-content: center;
+  background-color: #000;
+  color: #ffb300; }
+  .App label {
+    color: #f3dba1;
+    text-decoration: underline; }
+  .App .loader {
+    background-color: #000;
+    position: static; }
+    .App .loader .progress {
+      margin: 0;
+      padding: 0; }
+
+.wrapper {
+  display: flex;
+  flex-direction: row; }
+  .wrapper .Main {
+    display: flex;
+    justify-content: center;
+    flex-basis: 75%;
+    background-color: #000; }
+    .wrapper .Main .empty {
+      align-self: center;
+      font-size: 2.5em; }
+    .wrapper .Main .mainwrapper {
+      background-color: #000;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around; }
+      .wrapper .Main .mainwrapper .card {
+        background-color: rgba(211, 208, 208, 0.116); }
+      .wrapper .Main .mainwrapper .image {
+        background-color: #000; }
+        .wrapper .Main .mainwrapper .image img {
+          height: 100%; }
+      .wrapper .Main .mainwrapper .movie-info {
+        font-size: .8rem;
+        line-height: 1.5em; }
+      .wrapper .Main .mainwrapper .info-wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around; }
+        .wrapper .Main .mainwrapper .info-wrapper .movie_info {
+          font-size: .75rem;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between; }
+        .wrapper .Main .mainwrapper .info-wrapper .movie_info2 {
+          font-size: .75rem;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between; }
+  .wrapper .List {
+    flex-basis: 25%;
+    max-height: 100vh;
+    overflow-x: hidden;
+    overflow-y: scroll; }
+    .wrapper .List .collection {
+      border: none; }
+    .wrapper .List p {
+      font-size: .75rem;
+      word-wrap: normal; }
+    .wrapper .List .list-item {
+      cursor: pointer;
+      background-color: rgba(211, 208, 208, 0.116);
+      border: 0.5px solid rgba(211, 208, 208, 0.116); }
+
+.List::-webkit-scrollbar {
+  width: 3px;
+  background-color: #000; }
+
+.List::-webkit-scrollbar-thumb {
+  background-color: #ffb300;
+  border-radius: 10%; }
+
+.List::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3); }
+
+body::-webkit-scrollbar {
+  width: 3px;
+  background-color: #000; }
+
+body::-webkit-scrollbar-thumb {
+  background-color: #ffb300;
+  border-radius: 10%; }
+
+body::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3); }
+
+.Tabs .sbtn1 {
+  color: #ffb300;
+  transition: all 0.5s ease; }
+.Tabs .sbtn2 {
+  color: #000;
+  transition: all 0.5s ease; }
+.Tabs .Buttons {
+  position: static;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  padding-bottom: 10px; }
+
+/*# sourceMappingURL=app.css.map */
