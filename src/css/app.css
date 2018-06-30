@@ -1,6 +1,8 @@
+@import url("https://fonts.googleapis.com/css?family=Slabo+27px");
 *, body, html {
   padding: 0;
-  margin: 0; }
+  margin: 0;
+  font-family: 'Slabo 27px', serif; }
 
 html {
   background-color: #000;
@@ -52,19 +54,19 @@ body {
         .wrapper .Main .mainwrapper .image img {
           height: 100%; }
       .wrapper .Main .mainwrapper .movie-info {
-        font-size: .8rem;
+        font-size: .9rem;
         line-height: 1.5em; }
       .wrapper .Main .mainwrapper .info-wrapper {
         display: flex;
         flex-direction: row;
         justify-content: space-around; }
         .wrapper .Main .mainwrapper .info-wrapper .movie_info {
-          font-size: .75rem;
+          font-size: .8rem;
           display: flex;
           flex-direction: column;
           justify-content: space-between; }
         .wrapper .Main .mainwrapper .info-wrapper .movie_info2 {
-          font-size: .75rem;
+          font-size: .8rem;
           display: flex;
           flex-direction: column;
           justify-content: space-between; }
@@ -76,7 +78,7 @@ body {
     .wrapper .List .collection {
       border: none; }
     .wrapper .List p {
-      font-size: .75rem;
+      font-size: .8em;
       word-wrap: normal; }
     .wrapper .List .list-item {
       cursor: pointer;
